@@ -1,3 +1,9 @@
 table {
   width: 100%;
 }
+
+i.edit,
+i.delete {
+  color: #555;
+  margin-right: 10px;
+}
