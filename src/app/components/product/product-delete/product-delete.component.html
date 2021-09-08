@@ -5,22 +5,24 @@
       <input
         matInput
         placeholder="Nome"
-        [(ngModel)]="product.name"
+        [value]="product.name"
         name="nome"
+        disabled
       />
     </mat-form-field>
     <mat-form-field>
       <input
         matInput
         placeholder="Preço (R$)"
-        [(ngModel)]="product.price"
+        [value]="product.price"
         name="price"
+        disabled
       />
     </mat-form-field>
   </form>
 </mat-card>
 
-<button mat-raised-button (click)="updateProduct()" color="accent">
-  Atualizar
+<button mat-raised-button (click)="deleteProduct()" color="warn">
+  Excluir
 </button>
 <button mat-raised-button (click)="cancel()">Cancelar</button>
