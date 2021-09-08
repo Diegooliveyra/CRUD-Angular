@@ -1,27 +1,56 @@
-# Frontend
+# CRUD em Angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.4.
+## ℹ️ Sobre o projeto
 
-## Development server
+Mantido pela gigante da tecnologia Google, o Angular 9 é um dos principais frameworks frontend do mercado!
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Nesse projeto desenvolvi um sistema de cadastro de produtos, onde temos as quatro operações básicas de Um Crud(Create, Read, Update, Delete)
 
-## Code scaffolding
+## ✨ demonstração
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+</br>
 
-## Build
+<img src=".github/01.PNG" alt="layout" />
+<img src=".github/04.PNG" alt="layout" />
+<img src=".github/02.PNG" alt="layout" />
+<img src=".github/03.PNG" alt="layout" />
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</br>
+</br>
 
-## Running unit tests
+## 🎯 Objetivo do projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+Foi realizado este projeto com o intuito de adquerir conhecimentos sobre o framework Angular.
 
-## Running end-to-end tests
+## 📝 Tecnologias
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Para a realização desse projeto foi utilizado as seguintes tecnologias/linguagens:
 
-## Further help
+- [Angular](https://angular.io/) Angular is a platform for building mobile and desktop web applications
+- [Angular Material UI](https://material.angular.io/) Internationalized and accessible components for everyone
+- [TypeScript](https://www.typescriptlang.org/) Typed JavaScript at Any Scale.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ⚙️ Instalação
+
+Para que este rode em sua máquina, siga os passos abaixo:
+
+```bash
+# Clone o repositório em alguma pasta em sua máquina
+$ git clone git@github.com:Diegooliveyra/CRUD-Angular.git
+
+# Entre no repositório
+$ cd crud-angular
+
+Instale as dependencias digitando no termimal:
+$ npm install
+
+Rode a aplicação no modo de desenvolvimento.
+$ npm start
+
+Abra http://localhost:4200 no seu navegador para visualizar o projeto
+```
+
+## 📝 Licença
+
+<p>O projeto se encontra sob licença MIT. Para mais detalhes, acesse <a href='LICENSE'>license<a>.</p>
+<p>Criado com 💙 por <a href='https://github.com/Diegooliveyra/' target='blank'>Diego Oliveira</a></p>
